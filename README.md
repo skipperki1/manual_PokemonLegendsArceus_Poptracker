@@ -1,20 +1,14 @@
-# Template Pack for PopTracker
+# PopTracker pack for the Pokemon Legends Arceus Manual APWorld
+## Version Compatibility
+Version 1.0.0.0 is designed to work with the APWorld available in [this message.](https://discord.com/channels/1097532591650910289/1155150756622643260/1516882545906684205)
 
-This a template tracker package for PopTracker.
-
-Includes examples for AP and SNES memory autotracking and beginner-friendly explanations in the pack.
 
 ## Installation
 
-Just download the latest build or source and put in your packs folder (unpacked).
+Download the latest release zip file and either drop it in your packs folder or drag and drop directly into PopTracker.
 
-## More Info
-
-Check out PopTrackers Documentation on
-packs [here](https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md).
-
-Still having trouble realizing your pack and looking for help or just want more information about everything PopTracker? Check out the ['Unofficial' PopTracker Discord Server](https://discord.com/invite/gwThqMCPgK)!
-
-## License
-
-Feel free to use this template without credit for all your PopTracker packs!
+## Credits
++ Miro for all of the work done on the APWorld itself
++ Hopop for starting the Manual thread
++ Bulbapedia/Serebii/Game8 for various data and images
++ You for reading this!
