@@ -386,5 +386,55 @@
         ]
       }
     ]
+  },
+  "broadcast": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "4, 0",
+            "item_size": 64,
+            "h_alignment": "left",
+            "rows": [
+              [
+                "Wyrdeer",
+                "OFAcc"
+              ],
+              [
+                "Basculegion",
+                "CMAcc"
+              ],
+              [
+                "Sneasler",
+                "CCAcc"
+              ],
+              [
+                "Braviary",
+                "CHAcc"
+              ],
+              [
+                "Pokeball",
+                "AIAcc"
+              ],
+              [
+                "Heavyball",
+                "Wisps"
+              ],
+              [
+                "Featherball",
+                "WispsNeeded"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

@@ -11,18 +11,18 @@
   // put the version you tested against here!
   "target_poptracker_version": "0.32.0",
   "variants": {
-    "standard": {
-      "display_name": "Map Tracker",
-      "flags": [
+    //"standard": {
+      //"display_name": "Map Tracker",
+      //"flags": [
         // enables AP autotracking interface - remove if not needed
-        "ap"
-      ]
-    },
+        //"apmanual"
+      //]
+    //},
     "var_itemsonly": {
       "display_name": "Items Only",
       "flags": [
         // enables AP autotracking interface - remove if not needed
-        "ap"
+        "apmanual"
       ]
     }
   }
