@@ -1,7 +1,7 @@
 {
   // sets layouts for shadred items grids
   // bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
-  "shared_item_grid": {
+  "Locations": {
     "type": "array",
     "orientation": "vertical",
     "margin": "0,0",
@@ -12,17 +12,374 @@
         "margin": "0,0",
         "content": [
           {
+            "type": "canvas",
+            "margin": "10, 10",
+            "height": 344,
+            "width": 240,
+            "h_alignment": "left",
+            "content": [
+              {
+                "type": "item",
+                "item": "OFAcc",
+                "canvas_depth": 1,
+                "width": 64,
+                "height": 64
+              },
+              {
+                "type": "item",
+                "item": "OFFCWarp",
+                "canvas_depth": 1,
+                "canvas_left": 70,
+                "width": 30,
+                "height": 30
+              },
+              {
+                "type": "item",
+                "item": "OFHCWarp",
+                "canvas_depth": 1,
+                "canvas_left": 102,
+                "width": 30,
+                "height": 30
+              },
+              {
+                "type": "item",
+                "item": "OFGAWarp",
+                "canvas_depth": 1,
+                "canvas_top": 32,
+                "canvas_left": 73,
+                "width": 24,
+                "height": 24
+              },
+              {
+                "type": "item",
+                "item": "OFDisto",
+                "canvas_depth": 1,
+                "canvas_top": 6,
+                "canvas_left": 138,
+                "width": 47,
+                "height": 47
+              },
+              {
+                "type": "item",
+                "item": "OFOutbreak",
+                "canvas_depth": 1,
+                "canvas_top": 6,
+                "canvas_left": 192,
+                "width": 47,
+                "height": 47
+              },
+              {
+                "type": "item",
+                "item": "CMAcc",
+                "canvas_depth": 1,
+                "canvas_top": 70,
+                "width": 64,
+                "height": 64
+              },
+              {
+                "type": "item",
+                "item": "CMMCWarp",
+                "canvas_depth": 1,
+                "canvas_left": 70,
+                "canvas_top": 70,
+                "width": 30,
+                "height": 30
+              },
+              {
+                "type": "item",
+                "item": "CMBCWarp",
+                "canvas_depth": 1,
+                "canvas_top": 70,
+                "canvas_left": 102,
+                "width": 30,
+                "height": 30
+              },
+              {
+                "type": "item",
+                "item": "CMBAWarp",
+                "canvas_depth": 1,
+                "canvas_top": 102,
+                "canvas_left": 73,
+                "width": 24,
+                "height": 24
+              },
+              {
+                "type": "item",
+                "item": "CMDSWarp",
+                "canvas_depth": 1,
+                "canvas_left": 105,
+                "canvas_top": 102,
+                "width": 24,
+                "height": 24
+              },
+              {
+                "type": "item",
+                "item": "CMDisto",
+                "canvas_depth": 1,
+                "canvas_top": 76,
+                "canvas_left": 138,
+                "width": 47,
+                "height": 47
+              },
+              {
+                "type": "item",
+                "item": "CMOutbreak",
+                "canvas_depth": 1,
+                "canvas_top": 76,
+                "canvas_left": 192,
+                "width": 47,
+                "height": 47
+              },
+              {
+                "type": "item",
+                "item": "CCAcc",
+                "canvas_depth": 1,
+                "canvas_top": 140,
+                "width": 64,
+                "height": 64
+              },
+              {
+                "type": "item",
+                "item": "CCBCWarp",
+                "canvas_depth": 1,
+                "canvas_left": 70,
+                "canvas_top": 140,
+                "width": 30,
+                "height": 30
+              },
+              {
+                "type": "item",
+                "item": "CCCCWarp",
+                "canvas_depth": 1,
+                "canvas_left": 102,
+                "canvas_top": 140,
+                "width": 30,
+                "height": 30
+              },
+              {
+                "type": "item",
+                "item": "CCMAWarp",
+                "canvas_depth": 1,
+                "canvas_top": 172,
+                "canvas_left": 73,
+                "width": 24,
+                "height": 24
+              },
+              {
+                "type": "item",
+                "item": "CCDisto",
+                "canvas_depth": 1,
+                "canvas_left": 138,
+                "canvas_top": 146,
+                "width": 47,
+                "height": 47
+              },
+              {
+                "type": "item",
+                "item": "CCOutbreak",
+                "canvas_depth": 1,
+                "canvas_left": 192,
+                "canvas_top": 146,
+                "width": 47,
+                "height": 47
+              },
+              {
+                "type": "item",
+                "item": "CHAcc",
+                "canvas_depth": 1,
+                "canvas_top": 210,
+                "width": 64,
+                "height": 64
+              },
+              {
+                "type": "item",
+                "item": "CHHCWarp",
+                "canvas_depth": 1,
+                "canvas_left": 70,
+                "canvas_top": 210,
+                "width": 30,
+                "height": 30
+              },
+              {
+                "type": "item",
+                "item": "CHMCWarp",
+                "canvas_depth": 1,
+                "canvas_top": 210,
+                "canvas_left": 102,
+                "width": 30,
+                "height": 30
+              },
+              {
+                "type": "item",
+                "item": "CHSCWarp",
+                "canvas_depth": 1,
+                "canvas_top": 242,
+                "canvas_left": 70,
+                "width": 30,
+                "height": 30
+              },
+              {
+                "type": "item",
+                "item": "CHMAWarp",
+                "canvas_depth": 1,
+                "canvas_left": 105,
+                "canvas_top": 242,
+                "width": 24,
+                "height": 24
+              },
+              {
+                "type": "item",
+                "item": "CHDisto",
+                "canvas_depth": 1,
+                "canvas_top": 216,
+                "canvas_left": 138,
+                "width": 47,
+                "height": 47
+              },
+              {
+                "type": "item",
+                "item": "CHOutbreak",
+                "canvas_depth": 1,
+                "canvas_top": 216,
+                "canvas_left": 192,
+                "width": 47,
+                "height": 47
+              },
+              {
+                "type": "item",
+                "item": "AIAcc",
+                "canvas_depth": 1,
+                "canvas_top": 280,
+                "width": 64,
+                "height": 64
+              },
+              {
+                "type": "item",
+                "item": "AISCWarp",
+                "canvas_depth": 1,
+                "canvas_left": 70,
+                "canvas_top": 280,
+                "width": 30,
+                "height": 30
+              },
+              {
+                "type": "item",
+                "item": "AIICWarp",
+                "canvas_depth": 1,
+                "canvas_top": 280,
+                "canvas_left": 102,
+                "width": 30,
+                "height": 30
+              },
+              {
+                "type": "item",
+                "item": "AIIAWarp",
+                "canvas_depth": 1,
+                "canvas_top": 312,
+                "canvas_left": 73,
+                "width": 24,
+                "height": 24
+              },
+              {
+                "type": "item",
+                "item": "AIPSWarp",
+                "canvas_depth": 1,
+                "canvas_left": 105,
+                "canvas_top": 312,
+                "width": 24,
+                "height": 24
+              },
+              {
+                "type": "item",
+                "item": "AIDisto",
+                "canvas_depth": 1,
+                "canvas_top": 286,
+                "canvas_left": 138,
+                "width": 47,
+                "height": 47
+              },
+              {
+                "type": "item",
+                "item": "AIOutbreak",
+                "canvas_depth": 1,
+                "canvas_top": 286,
+                "canvas_left": 192,
+                "width": 47,
+                "height": 47
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Items": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+          {
             "type": "itemgrid",
-            "item_margin": "10, 10",
+            "item_margin": "2, 0",
+            "item_size": 48,
             "h_alignment": "left",
             "rows": [
               [
-                "toggle",
-                "progressive"
+                "Wyrdeer",
+                "Ursaluna",
+                "Basculegion",
+                "Sneasler",
+                "Braviary"
               ],
               [
-                "consumable",
-                "progressive_toggle"
+                "MushCake",
+                "HoneyCake",
+                "GrainCake",
+                "BeanCake",
+                "SaltCake"
+              ]
+            ]
+          },
+          {
+            "type": "itemgrid",
+            "item_margin": "10, 0",
+            "item_size": 64,
+            "h_alignment": "left",
+            "rows": [
+              [
+                "Pokeball",
+                "Heavyball",
+                "Featherball"
+              ],
+              [
+                "Food",
+                "Dummy",
+                "Stun"
+              ],
+              [
+                "SmokeBomb",
+                "Dummy",
+                "StealthSpray"
+              ],
+              [
+                "PeatBlock",
+                "RazorClaw",
+                "BlackAugurite"
+              ],
+              [
+                "FireStone",
+                "SunStone",
+                "LeafStone"
+              ],
+              [
+                "ShinyCharm",
+                "Wisps",
+                "WispsNeeded"
               ]
             ]
           }

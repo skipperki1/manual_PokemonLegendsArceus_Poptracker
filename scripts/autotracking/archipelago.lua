@@ -102,6 +102,15 @@ end
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
 	-- put any code here that slot_data should affect (toggling setting items for example)
+		for k, v in pairs(SETTINGS_MAPPING) do
+		obj = Tracker:FindObjectForCode(v)
+			print(slot_data[k])
+		local value = slot_data[k]
+		local tog = value == 1
+		if k == "wisps_required" then 
+			Tracker:FindObjectForCode("WispsNeeded").AcquiredCount = value
+		end
+	end
 end
 
 -- called right after an AP slot is connected

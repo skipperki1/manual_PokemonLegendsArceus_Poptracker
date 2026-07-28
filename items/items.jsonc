@@ -1,56 +1,527 @@
 [
   //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
   {
-    "name": "Toggle",
+    "name": "Obsidian Fieldlands Access",
     "type": "toggle",
-    "img": "images/items/toggle.png",
-    "codes": "toggle"
+    "img": "images/items/Kleavor.png",
+    "codes": "toggle,AreaAccess,OFAcc,OFUnlocks"
   },
   {
-    "name": "Progressive",
+    "name": "Crimson Mirelands Access",
+    "type": "toggle",
+    "img": "images/items/Liligant.png",
+    "codes": "toggle,AreaAccess,CMAcc,CMUnlocks"
+  },
+  {
+    "name": "Cobalt Coastlands Access",
+    "type": "toggle",
+    "img": "images/items/Arcanine.png",
+    "codes": "toggle,AreaAccess,CCAcc,CCUnlocks"
+  },
+  {
+    "name": "Coronet Highlands Access",
+    "type": "toggle",
+    "img": "images/items/Electrode.png",
+    "codes": "toggle,AreaAccess,CHAcc,CHUnlocks"
+  },
+  {
+    "name": "Alabaster Icelands Access",
+    "type": "toggle",
+    "img": "images/items/Avalugg.png",
+    "codes": "toggle,AreaAccess,AIAcc,AIUnlocks"
+  },
+  {
+    "name": "Fieldland Camp Warp",
+    "type": "toggle",
+    "img": "images/items/Camp.png",
+    "codes": "toggle,OFWarps,OFFCWarp,OFUnlocks"
+  },
+  {
+    "name": "Heights Camp Warp",
+    "type": "toggle",
+    "img": "images/items/Camp.png",
+    "codes": "toggle,OFWarps,OFHCWarp,OFUnlocks"
+  },
+  {
+    "name": "Grandtree Arena Warp",
+    "type": "toggle",
+    "img": "images/items/NonCamp.png",
+    "codes": "toggle,OFWarps,OFGAWarp,OFUnlocks"
+  },
+  {
+    "name": "Mirelands Camp Warp",
+    "type": "toggle",
+    "img": "images/items/Camp.png",
+    "codes": "toggle,CMWarps,CMMCWarp,CMUnlocks"
+  },
+  {
+    "name": "Bogbound Camp Warp",
+    "type": "toggle",
+    "img": "images/items/Camp.png",
+    "codes": "toggle,CMWarps,CMBCWarp,CMUnlocks"
+  },
+  {
+    "name": "Brava Arena Warp",
+    "type": "toggle",
+    "img": "images/items/NonCamp.png",
+    "codes": "toggle,CMWarps,CMBAWarp,CMUnlocks"
+  },
+  {
+    "name": "Diamond Settlement Warp",
+    "type": "toggle",
+    "img": "images/items/NonCamp.png",
+    "codes": "toggle,CMWarps,CMDSWarp,CMUnlocks"
+  },
+  {
+    "name": "Beachside Camp Warp",
+    "type": "toggle",
+    "img": "images/items/Camp.png",
+    "codes": "toggle,CCWarps,CCBCWarp,CCUnlocks"
+  },
+  {
+    "name": "Coastland Camp Warp",
+    "type": "toggle",
+    "img": "images/items/Camp.png",
+    "codes": "toggle,CCWarps,CCCCWarp,CCUnlocks"
+  },
+  {
+    "name": "Molten Arena Warp",
+    "type": "toggle",
+    "img": "images/items/NonCamp.png",
+    "codes": "toggle,CCWarps,CCMAWarp,CCUnlocks"
+  },
+  {
+    "name": "Highlands Camp Warp",
+    "type": "toggle",
+    "img": "images/items/Camp.png",
+    "codes": "toggle,CHWarps,CHHCWarp,CHUnlocks"
+  },
+  {
+    "name": "Mountain Camp Warp",
+    "type": "toggle",
+    "img": "images/items/Camp.png",
+    "codes": "toggle,CHWarps,CHMCWarp,CHUnlocks"
+  },
+  {
+    "name": "Summit Camp Warp",
+    "type": "toggle",
+    "img": "images/items/Camp.png",
+    "codes": "toggle,CHWarps,CHSCWarp,CHUnlocks"
+  },
+  {
+    "name": "Moonview Arena Warp",
+    "type": "toggle",
+    "img": "images/items/NonCamp.png",
+    "codes": "toggle,CHWarps,CHMAWarp,CHUnlocks"
+  },
+  {
+    "name": "Snowfield Camp Warp",
+    "type": "toggle",
+    "img": "images/items/Camp.png",
+    "codes": "toggle,AIWarps,AISCWarp,AIUnlocks"
+  },
+  {
+    "name": "Icepeak Camp Warp",
+    "type": "toggle",
+    "img": "images/items/Camp.png",
+    "codes": "toggle,AIWarps,AIICWarp,AIUnlocks"
+  },
+  {
+    "name": "Icepeak Arena Warp",
+    "type": "toggle",
+    "img": "images/items/NonCamp.png",
+    "codes": "toggle,AIWarps,AIIAWarp,AIUnlocks"
+  },
+  {
+    "name": "Pearl Settlement Warp",
+    "type": "toggle",
+    "img": "images/items/NonCamp.png",
+    "codes": "toggle,AIWarps,AIPSWarp,AIUnlocks"
+  },
+  {
+    "name": "Fieldland Distortion",
+    "type": "toggle",
+    "img": "images/items/Disto.png",
+    "codes": "toggle,Distortions,OFDisto,OFUnlocks"
+  },
+  {
+    "name": "Mireland Distortion",
+    "type": "toggle",
+    "img": "images/items/Disto.png",
+    "codes": "toggle,Distortions,CMDisto,CMUnlocks"
+  },
+  {
+    "name": "Coastland Distortion",
+    "type": "toggle",
+    "img": "images/items/Disto.png",
+    "codes": "toggle,Distortions,CCDisto,CCUnlocks"
+  },
+  {
+    "name": "Highland Distortion",
+    "type": "toggle",
+    "img": "images/items/Disto.png",
+    "codes": "toggle,Distortions,CHDisto,CHUnlocks"
+  },
+  {
+    "name": "Iceland Distortion",
+    "type": "toggle",
+    "img": "images/items/Disto.png",
+    "codes": "toggle,Distortions,AIDisto,AIUnlocks"
+  },
+  {
+    "name": "Progressive Fieldland Outbreaks",
     "type": "progressive",
     "allow_disabled": true,
     "initial_stage_idx": 0,
     "stages": [
       {
-        "img": "images/items/progressive.png",
-        "codes": "progressive",
+        "img": "images/items/Outbreak.png",
+        "codes": "progressive,OFUnlocks,Outbreaks,OFOutbreak,OFOutbreak1",
         "inherit_codes": false
       },
       {
-        "img": "images/items/progressive_2.png",
-        "codes": "progressive_2",
-        "inherit_codes": false
+        "img": "images/items/MassiveOutbreak.png",
+        "codes": "progressive,OFUnlocks,Outbreaks,OFOutbreak,OFOutbreak2",
+        "inherit_codes": true
       }
     ]
   },
   {
-    "name": "Consumable",
-    "type": "consumable",
-    "img": "images/items/consumable.png",
-    "max_quantity": 8,
-    "increment": 1,
-    "decrement": 1,
-    "initial_quantity": 1,
-    "overlay_background": "#000000",
-    "overlay_font_size": 8,
-    "codes": "consumable"
-  },
-  {
-    "name": "Progressive Toggle",
-    "type": "progressive_toggle",
+    "name": "Progressive Mireland Outbreaks",
+    "type": "progressive",
+    "allow_disabled": true,
     "initial_stage_idx": 0,
     "stages": [
       {
-        "img": "images/items/progressive.png",
-        "codes": "progressive_toggle",
+        "img": "images/items/Outbreak.png",
+        "codes": "progressive,CMUnlocks,Outbreaks,CMOutbreak1,CMOutbreak",
         "inherit_codes": false
       },
       {
-        "img": "images/items/progressive_2.png",
-        "codes": "progressive_toggle_2",
-        "inherit_codes": false
+        "img": "images/items/MassiveOutbreak.png",
+        "codes": "progressive,CMUnlocks,Outbreaks,CMOutbreak2,CMOutbreak",
+        "inherit_codes": true
       }
     ]
+  },
+  {
+    "name": "Progressive Coastland Outbreaks",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/Outbreak.png",
+        "codes": "progressive,CCUnlocks,Outbreaks,CCOutbreak1,CCOutbreak",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/MassiveOutbreak.png",
+        "codes": "progressive,CCUnlocks,Outbreaks,CCOutbreak2,CCOutbreak",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Progressive Highland Outbreaks",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/Outbreak.png",
+        "codes": "progressive,CHUnlocks,Outbreaks,CHOutbreak1,CHOutbreak",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/MassiveOutbreak.png",
+        "codes": "progressive,CHUnlocks,Outbreaks,CHOutbreak2,CHOutbreak",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Progressive Iceland Outbreaks",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/Outbreak.png",
+        "codes": "progressive,AIUnlocks,Outbreaks,AIOutbreak1,AIOutbreak",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/MassiveOutbreak.png",
+        "codes": "progressive,AIUnlocks,Outbreaks,AIOutbreak2,AIOutbreak",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Wyrdeer",
+    "type": "toggle",
+    "img": "images/items/Wyrdeer.png",
+    "codes": "toggle,RidePokemon,Wyrdeer"
+  },
+  {
+    "name": "Ursaluna",
+    "type": "toggle",
+    "img": "images/items/Ursaluna.png",
+    "codes": "toggle,RidePokemon,Ursaluna"
+  },
+  {
+    "name": "Basculegion",
+    "type": "toggle",
+    "img": "images/items/Basculegion.png",
+    "codes": "toggle,RidePokemon,Basculegion"
+  },
+  {
+    "name": "Sneasler",
+    "type": "toggle",
+    "img": "images/items/Sneasler.png",
+    "codes": "toggle,RidePokemon,Sneasler"
+  },
+  {
+    "name": "Braviary",
+    "type": "toggle",
+    "img": "images/items/Braviary.png",
+    "codes": "toggle,RidePokemon,Braviary"
+  },
+  {
+    "name": "Progressive Poké Ball",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/pokeballlegends.png",
+        "codes": "progressive,Pokeball,Ball1,Pokeball1",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/greatballlegends.png",
+        "codes": "progressive,Pokeball,Ball2,Pokeball2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/ultraballlegends.png",
+        "codes": "progressive,Pokeball,Ball3,Pokeball3",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Progressive Heavy Ball",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/heavyballlegends.png",
+        "codes": "progressive,Heavyball,Ball1,Heavyball1",
+        "img_mods": "overlay|images/items/pokeballoverlay.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/leadenball.png",
+        "codes": "progressive,Heavyball,Ball2,Heavyball2",
+        "img_mods": "overlay|images/items/greatballoverlay.png",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/gigatonball.png",
+        "codes": "progressive,Heavyball,Ball3,Heavyball3",
+        "img_mods": "overlay|images/items/ultraballoverlay.png",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Progressive Feather Ball",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/featherball.png",
+        "codes": "progressive,Featherball,Ball1,Featherball1",
+        "img_mods": "overlay|images/items/pokeballoverlay.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/wingball.png",
+        "codes": "progressive,Featherball,Ball2,Featherball2",
+        "img_mods": "overlay|images/items/greatballoverlay.png",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/jetball.png",
+        "codes": "progressive,Featherball,Ball3,Featherball3",
+        "img_mods": "overlay|images/items/ultraballoverlay.png",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Progressive Food",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/cheri.png",
+        "codes": "progressive,Food,Food1",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Food2.png",
+        "codes": "progressive,Food,Food2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/Food3.png",
+        "codes": "progressive,Food,Food3",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Progressive Stun",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/Stun1.png",
+        "codes": "progressive,Stun,Stun1",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/Stun2.png",
+        "codes": "progressive,Stun,Stun2",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Mushroom Cake",
+    "type": "toggle",
+    "img": "images/items/MushroomCake.png",
+    "codes": "toggle,Consumables,Cakes,MushCake"
+  },
+  {
+    "name": "Honey Cake",
+    "type": "toggle",
+    "img": "images/items/HoneyCake.png",
+    "codes": "toggle,Consumables,Cakes,HoneyCake"
+  },
+  {
+    "name": "Grain Cake",
+    "type": "toggle",
+    "img": "images/items/GrainCake.png",
+    "codes": "toggle,Consumables,Cakes,GrainCake"
+  },
+  {
+    "name": "Bean Cake",
+    "type": "toggle",
+    "img": "images/items/BeanCake.png",
+    "codes": "toggle,Consumables,Cakes,BeanCake"
+  },
+  {
+    "name": "Salt Cake",
+    "type": "toggle",
+    "img": "images/items/SaltCake.png",
+    "codes": "toggle,Consumables,Cakes,SaltCake"
+  },
+  {
+    "name": "Smoke Bomb",
+    "type": "toggle",
+    "img": "images/items/SmokeBomb.png",
+    "codes": "toggle,Consumables,Misc,SmokeBomb"
+  },
+  {
+    "name": "Stealth Spray",
+    "type": "toggle",
+    "img": "images/items/StealthSpray.png",
+    "codes": "toggle,Consumables,Misc,StealthSpray"
+  },
+  {
+    "name": "Peat Block",
+    "type": "toggle",
+    "img": "images/items/PeatBlock.png",
+    "codes": "toggle,EvoItems,Misc,PeatBlock"
+  },
+  {
+    "name": "Fire Stone",
+    "type": "toggle",
+    "img": "images/items/FireStone.png",
+    "codes": "toggle,EvoItems,Misc,FireStone"
+  },
+  {
+    "name": "Sun Stone",
+    "type": "toggle",
+    "img": "images/items/SunStone.png",
+    "codes": "toggle,EvoItems,Misc,SunStone"
+  },
+  {
+    "name": "Leaf Stone",
+    "type": "toggle",
+    "img": "images/items/LeafStone.png",
+    "codes": "toggle,EvoItems,Misc,LeafStone"
+  },
+  {
+    "name": "Razor Claw",
+    "type": "toggle",
+    "img": "images/items/RazorClaw.png",
+    "codes": "toggle,EvoItems,Misc,RazorClaw"
+  },
+  {
+    "name": "Black Augurite",
+    "type": "toggle",
+    "img": "images/items/BlackAugurite.png",
+    "codes": "toggle,EvoItems,Misc,BlackAugurite"
+  },
+  {
+    "name": "Shiny Charm Fragments",
+    "type": "consumable",
+    "img": "images/items/ShinyCharm.png",
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 16,
+    "codes": "consumable,ShinyCharm"
+  },
+  {
+    "name": "Wisps",
+    "type": "consumable",
+    "img": "images/items/Wisp.png",
+    "max_quantity": 108,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 16,
+    "codes": "consumable,Wisps,Macguffins"
+  },
+  {
+    "name": "Wisps Needed",
+    "type": "consumable",
+    "img": "images/items/WispsNeeded.png",
+    "max_quantity": 108,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 16,
+    "codes": "consumable,WispsNeeded,Macguffins"
+  },
+  {
+    "name": "Dummy",
+    "type": "static",
+    "img": "images/items/static.png",
+    "codes": "static,Dummy,Blank"
   }
 ]

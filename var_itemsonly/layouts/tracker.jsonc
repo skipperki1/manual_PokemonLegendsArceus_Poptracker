@@ -13,11 +13,23 @@
           "content": [
             {
               "type": "group",
-              "header": "Items",
+              "header": "Location Unlocks",
               "dock": "top",
               "content": {
                 "type": "layout",
-                "key": "shared_item_grid"
+                "key": "Locations"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Items",
+              "dock": "top",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "Items"
               }
             }
           ]
@@ -38,6 +50,18 @@
           "content": [
             {
               "type": "group",
+              "header": "Location Unlocks",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "Locations"
+              }
+            },
+            {
+              "type": "group",
               "header": "Items",
               "dock": "left",
               "margin": "0,0,3,0",
@@ -45,31 +69,7 @@
                 "type": "layout",
                 "h_alignment": "center",
                 "v_alignment": "center",
-                "key": "shared_item_grid"
-              }
-            },
-            /*{
-              "type": "group",
-              "header": "Doors",
-              "dock": "left",
-              "margin": "0,0,3,0",
-              "content": {
-                "type": "layout",
-                "h_alignment": "center",
-                "v_alignment": "center",
-                "key": "doors_item_grid"
-              }
-            },*/
-            {
-              "type": "group",
-              "header": "Transitions",
-              "dock": "left",
-              "margin": "0,0,3,0",
-              "content": {
-                "type": "layout",
-                "h_alignment": "center",
-                "v_alignment": "center",
-                "key": "transitions_item_grid"
+                "key": "Items"
               }
             }
           ]

@@ -3,6 +3,17 @@
 -- to reference a location in Pop use @ in the beginning and then path to the section (more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#locations)
 -- to reference an item use it's code
 -- here are the SM locations as an example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/scripts/autotracking/location_mapping.lua
+SETTINGS_MAPPING = {
+	["wisps_required"] = "WispsNeeded",
+	["wisps_total"] = "WispsTotal",
+	["shiny_locations"] = "ShinyLocations",
+	["fish_locations"] = "FishLocations",
+	["visible_events"] = "VisibleEvents",
+	["generate_region_diagram"] = "RegionDiagram",
+	["start_inventory_from_pool"] = "StartInventory",
+	["alpha_locations"] = "AlphaLocations",
+	["death_link"] = "Deathlink",
+}
 BASE_LOCATION_ID = 0
 LOCATION_MAPPING = {
 	[BASE_LOCATION_ID + 00001] = { { "@Example Parent/Example Location 1/Example Section 1" } },
